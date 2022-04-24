@@ -24,7 +24,7 @@
 		};
 		combo_caps {
 			timeout-ms = <50>;
-			key-positons = <8 9>;
+			key-positions = <8 9>;
 			bindings = <&kp CAPS>;
 		};
 		combo_lalt {
