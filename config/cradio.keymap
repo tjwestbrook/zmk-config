@@ -10,8 +10,8 @@
 
 
 &mt {
-  //  flavor = "tap-preferred";
-  //  tapping_term_ms = <200>;
+  //  flavor = "tap-unless-interupted";
+  //  tapping-term-ms = <100>;
 };
 
 / {
@@ -85,7 +85,7 @@
 
 		tri_layer {
 			bindings = <
-			&kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5		&bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_SEL 5
+			&kp NUM_1 &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5		&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
 			&kp F1 &kp F2 &kp F3 &kp F4 &kp F5						&bt BT_NXT &kp PG_UP &kp C_VOL_UP &kp C_MUTE &kp C_BRI_UP
 			&kp F11 &kp C_PREV &kp C_NEXT &kp C_PP &kp PSCRN		&bt BT_PRV &kp PG_DN &kp C_VOL_DN &bt BT_CLR &kp C_BRI_DN
 							&trans &trans						&trans &trans
