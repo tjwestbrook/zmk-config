@@ -10,7 +10,7 @@
 
 
 &mt {
-  //  flavor = "tap-unless-interrupted";
+  //  flavor = "tap-preferred";
   //  tapping-term-ms = <100>;
 };
 
