@@ -12,6 +12,7 @@
 &mt {
   //  flavor = "tap-unless-interrupted";
   //  tapping-term-ms = <50>;
+  flavor = "balanced";
 };
 
 / {
